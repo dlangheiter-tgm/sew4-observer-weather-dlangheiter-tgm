@@ -24,9 +24,9 @@ Gruppengrösse: 1 Person
 - [x] Dokumentation des Observer-Patterns
 - [x] Klassendiagramm des bestehenden Codes erstellen und in das ``README.md`` einbinden
 ### Grundanforderungen **zur Gänze erfüllt**
-- [ ] Pull-Ansatz anwenden
-- [ ] neues Klassendiagramm erstellen
-- [ ] Änderungen entsprechend dokumentieren und dabei Vor-/Nachteile anführen
+- [x] Pull-Ansatz anwenden
+- [x] neues Klassendiagramm erstellen
+- [x] Änderungen entsprechend dokumentieren und dabei Vor-/Nachteile anführen
 - [ ] JavaFX Display erstellen und lauffähig machen
 
 ## Quellen
