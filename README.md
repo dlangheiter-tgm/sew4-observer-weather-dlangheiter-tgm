@@ -6,5 +6,7 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
 ## Implementierung
 * Runnable  
     Changed main class in `build.gradle` to `mainClassName = ' observer.weather.WeatherStation'`
+* Weather Class Diagramm
+    ![WeatherClassDiagramm](assets/WeatherClassDiagramm.svg)
 
 ## Quellen
