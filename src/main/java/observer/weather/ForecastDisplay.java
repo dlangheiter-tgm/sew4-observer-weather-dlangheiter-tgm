@@ -14,6 +14,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
 
     public void update() {
         lastPressure = currentPressure;
+        // Get new data from weatherData
         currentPressure = weatherData.getPressure();
         // Display changes
         display();

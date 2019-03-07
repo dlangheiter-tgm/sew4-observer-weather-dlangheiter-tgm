@@ -29,6 +29,7 @@ public class WeatherData implements Subject {
 	public void notifyObservers() {
 		for (int i = 0; i < observers.size(); i++) {
 			Observer observer = (Observer)observers.get(i);
+			// Notify observers over change so they can get the new data
 			observer.update();
 		}
 	}

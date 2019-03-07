@@ -15,6 +15,7 @@ public class StatisticsDisplay implements Observer, DisplayElement {
 	}
 
 	public void update() {
+		// Get new data from weatherData
 		float temp = weatherData.getTemperature();
 		tempSum += temp;
 		numReadings++;

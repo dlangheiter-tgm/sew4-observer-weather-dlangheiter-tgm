@@ -10,6 +10,7 @@ public class HeatIndexDisplay implements Observer, DisplayElement {
 	}
 
 	public void update() {
+		// Get new data from weatherData and update heatIndex
 		heatIndex = computeHeatIndex(weatherData.getTemperature(), weatherData.getHumidity());
 		// Display data
 		display();
