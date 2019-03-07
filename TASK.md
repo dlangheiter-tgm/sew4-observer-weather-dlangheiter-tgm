@@ -20,9 +20,9 @@ Es soll ein neues Display in JavaFX implementiert und in den bestehenden Code ei
 ## Bewertung
 Gruppengrösse: 1 Person
 ### Grundanforderungen **überwiegend erfüllt**
-- [ ] ``gradle`` Umgebung initialisieren und Code ausführbar machen
-- [ ] Dokumentation des Observer-Patterns
-- [ ] Klassendiagramm des bestehenden Codes erstellen und in das ``README.md`` einbinden
+- [x] ``gradle`` Umgebung initialisieren und Code ausführbar machen
+- [x] Dokumentation des Observer-Patterns
+- [x] Klassendiagramm des bestehenden Codes erstellen und in das ``README.md`` einbinden
 ### Grundanforderungen **zur Gänze erfüllt**
 - [ ] Pull-Ansatz anwenden
 - [ ] neues Klassendiagramm erstellen

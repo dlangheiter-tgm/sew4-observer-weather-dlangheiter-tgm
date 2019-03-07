@@ -2,6 +2,9 @@ package observer.weather;
 
 import java.util.*;
 
+/**
+ * Implementation of an Subject(Observable) in form of weather data
+ */
 public class WeatherData implements Subject {
 	private ArrayList observers;
 	private float temperature;
@@ -11,7 +14,7 @@ public class WeatherData implements Subject {
 	public WeatherData() {
 		observers = new ArrayList();
 	}
-	
+
 	public void registerObserver(Observer o) {
 		observers.add(o);
 	}
@@ -29,26 +32,48 @@ public class WeatherData implements Subject {
 			observer.update(temperature, humidity, pressure);
 		}
 	}
-	
+
+	/**
+	 * Called when the measurements have changed
+	 * Calls notifyObservers
+	 */
 	public void measurementsChanged() {
 		notifyObservers();
 	}
-	
+
+	/**
+	 * Public method to update measurements. Calls measurementsChanged
+	 * @param temperature new temperature
+	 * @param humidity new humidity
+	 * @param pressure new pressure
+	 */
 	public void setMeasurements(float temperature, float humidity, float pressure) {
 		this.temperature = temperature;
 		this.humidity = humidity;
 		this.pressure = pressure;
 		measurementsChanged();
 	}
-	
+
+	/**
+	 * Getter for temperature
+	 * @return current temperature
+	 */
 	public float getTemperature() {
 		return temperature;
 	}
-	
+
+	/**
+	 * Getter for humidity
+	 * @return current humidity
+	 */
 	public float getHumidity() {
 		return humidity;
 	}
-	
+
+	/**
+	 * Getter for pressure
+	 * @return current pressure
+	 */
 	public float getPressure() {
 		return pressure;
 	}
