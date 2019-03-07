@@ -3,7 +3,7 @@ package observer.weather;
 /**
  * Interface for our WeatherStation (observable)
  */
-public interface Subject {
+public interface Subject extends IWeatherData {
 	/**
 	 * Register new observer
 	 * @param o Observer to register

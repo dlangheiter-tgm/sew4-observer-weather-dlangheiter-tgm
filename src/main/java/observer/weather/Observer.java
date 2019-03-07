@@ -6,9 +6,6 @@ package observer.weather;
 public interface Observer {
 	/**
 	 * Called when there is an update in the data
-	 * @param temp new temperature
-	 * @param humidity new humidity
-	 * @param pressure new pressure
 	 */
-	public void update(float temp, float humidity, float pressure);
+	public void update();
 }
