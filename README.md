@@ -1,3 +1,5 @@
+
+
 # "*Observer - WeatherData*"
 
 ## Aufgabenstellung
@@ -15,5 +17,7 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
     * created new Interface `IWeatherData` to get WeatherData
     * inerface `Subject` extends `IWeatherData` so I do not need to change `CurrentConditionsDisplay` as much
     * Update all Displays to call thier needed methods (`getTemperature`, `getHumidity`, `getPressure`)
+* Updated UML
+    ![PullClassDiagram](assets/PullClassDiagram.svg)
 
 ## Quellen
